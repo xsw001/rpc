@@ -1,0 +1,5 @@
+server:
+  port: 8881
+own:
+  chinese:
+    chineseService: true

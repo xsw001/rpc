@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.xsw.rpc.codec.JSONEncoderTest" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk-15\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\JavaProject\rpc"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.script" value=""/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.dir" value="D:\JavaProject\rpc"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\研究生\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="archetypeCatalog" value="internal"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.5.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp;D:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Program Files\VanDyke Software\Clients\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;d:\ProgramData\Anaconda3;d:\ProgramData\Anaconda3\Library\mingw-w64\bin;d:\ProgramData\Anaconda3\Library\usr\bin;d:\ProgramData\Anaconda3\Library\bin;d:\ProgramData\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\MySQL\MySQL Server 8.0\bin;D:\PythonProject\venv\Lib\site-packages\Graphviz 2.44.1\bin;D:\apache-maven-3.5.2\bin;D:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\dotnet\;D:\ProgramData\nodejs\;D:\ProgramData\Anaconda3\envs\yolo;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Java\gradle-6.8.2\bin;D:\Program Files\Git\cmd;C:\Users\研究生\AppData\Roaming\npm;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin;D:\Program Files\NVIDIA Corporation\CUDA Samples\v11.1\common\lib\x64;D:\Program Files\NVIDIA Corporation\CUDA Samples\v11.1\bin\win64;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib\x64;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin;D:\Program Files\NVIDIA Corporation\CUDA Samples\v11.1\common\lib\x64;D:\Program Files\NVIDIA Corporation\CUDA Samples\v11.1\bin\win64;D:\Program Files\vscode\mingw64\bin;D:\Program Files\Wireshark;D:\Program Files\Python\Scripts\;D:\Program Files\Python\;C:\Users\研究生\AppData\Local\Microsoft\WindowsApps;d:\Program Files\JetBrains\PyCharm 2020.1.1\bin;;D:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;;C:\Users\研究生\AppData\Roaming\npm;D:\PythonProject\venv\Lib\site-packages\Graphviz 2.44.1\bin;;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.5.2/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\研究生"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="研究生"/>
+    <property name="java.class.path" value="D:\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.4 -s D:\apache-maven-3.5.2\conf\settings.xml install"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk-15"/>
+    <property name="idea.version2020.1.4" value="true"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.5.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.xsw.rpc.codec.JSONEncoderTest" name="testEncode" time="0"/>
+</testsuite>
